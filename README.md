@@ -12,5 +12,6 @@
 ## 프로젝트 소개
 -
 
-## 6조 저장소 URL
-+https://github.com/seoseongmin/JKSC
+## 저장소 URL
+-https://github.com/seoseongmin/JKSC (6조 URL)
+-https://github.com/SMU-EB0055/SE2021_HAEA0008_3 (교수님 URL)
