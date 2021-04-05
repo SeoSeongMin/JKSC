@@ -12,3 +12,5 @@
 ## 프로젝트 소개
 -
 
+## 6조 저장소 URL
++https://github.com/seoseongmin/JKSC
