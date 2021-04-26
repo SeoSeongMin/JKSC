@@ -17,4 +17,7 @@
 
 -https://github.com/SMU-EB0055/SE2021_HAEA0008_3 (교수님 URL)
 
+## 중간보고 발표 영상 (유튜브 링크)
+https://www.youtube.com/watch?v=1jBEvnbu-YM
+
 
