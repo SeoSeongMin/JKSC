@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.camper.anroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CamperApp">
+        <activity android:name="com.camper.DatePickerFragment"></activity>
+        <activity android:name="com.camper.android.SC027Activity"></activity>
+        <activity android:name="com.camper.android.SC026Activity"></activity>
+        <activity android:name="com.camper.android.SC024Activity" />
+        <activity android:name="com.camper.android.SC021Activity" />
+        <activity android:name="com.camper.android.SC019Activity" />
+        <activity android:name="com.camper.android.SC018Activity"></activity>
+        <activity android:name="com.camper.android.SC017Activity" />
+        <activity android:name="com.camper.android.SC016Activity" />
+        <activity android:name="com.camper.android.SC014Activity" />
+        <activity android:name="com.camper.android.SC013Activity" />
+        <activity android:name="com.camper.android.SC011Activity" />
+        <activity android:name="com.camper.android.SC010Activity" />
+        <activity android:name="com.camper.android.SC009Activity" />
+        <activity android:name="com.camper.android.SC008Activity" />
+        <activity android:name="com.camper.android.SC007Activity" />
+        <activity android:name="com.camper.android.SC006Activity" />
+        <activity android:name="com.camper.android.SC005Activity" />
+        <activity android:name="com.camper.android.SC002Activity" />
+        <activity android:name="com.camper.android.SC003Activity" />
+        <activity android:name="com.camper.android.SC001Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

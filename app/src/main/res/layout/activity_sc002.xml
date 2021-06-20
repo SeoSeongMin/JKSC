@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.camper.android.SC002Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#009688"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:src="@drawable/icons8_back_24"
+            android:text="뒤로가기아이콘" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:text="로그인"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/search1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center|right"
+            android:padding="5dp"
+            android:src="@drawable/icons8_search_50"
+            android:text="서치아이콘" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.1"
+            android:gravity="center|right"
+            android:padding="5dp"
+            android:src="@drawable/icons8_menu_50"
+            android:text="메뉴아이콘" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/round_white"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/human_login"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@drawable/round_gray_login"
+            android:paddingBottom="3dp"
+            android:src="@drawable/icons8_person_64"
+            android:text="사람" />
+
+        <EditText
+            android:id="@+id/sc002_login"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.8"
+            android:background="@null"
+            android:hint="Username" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/round_white"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/key_login"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="@drawable/round_gray_login"
+            android:padding="5dp"
+            android:src="@drawable/icons8_key_60"
+            android:text="사람" />
+
+        <EditText
+            android:id="@+id/sc002_pwd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0.8"
+            android:background="@null"
+            android:hint="*******"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <CheckBox
+            android:id="@+id/sc002_checkbox1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개인          " />
+
+        <CheckBox
+            android:id="@+id/sc002_checkbox2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사업자" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sc002_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/sc002_register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</LinearLayout>
