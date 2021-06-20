@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.camper.android.SC017Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#009688"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.1">
+
+            <ImageView
+                android:id="@+id/human"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:src="@drawable/icons8_person_64"
+                android:text="사람아이콘" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:src="@drawable/icons8_number_2" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:text="Camp-us"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/search1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center|right"
+            android:padding="5dp"
+            android:src="@drawable/icons8_search_50"
+            android:text="서치아이콘" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.1"
+            android:gravity="center|right"
+            android:padding="5dp"
+            android:src="@drawable/icons8_menu_50"
+            android:text="메뉴아이콘" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/sc017_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/round_blue"
+            android:padding="10dp"
+            android:text=" 로그아웃 "
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/sc017_mypage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/round_purple"
+            android:padding="10dp"
+            android:text=" 마이페이지 "
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/sc017_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/round"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="      검색"
+            android:textColorHint="#ffffff"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/search2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0.1"
+            android:paddingRight="3dp"
+            android:src="@drawable/icons8_search_50" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:paddingRight="5dp"
+            android:src="@drawable/c1"
+            android:text="캠핑사진1" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:paddingRight="5dp"
+            android:paddingBottom="15dp"
+            android:src="@drawable/c2"
+            android:text="캠핑사진2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:paddingBottom="5dp"
+            android:src="@drawable/c3"
+            android:text="캠핑사진3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:id="@+id/sc017_community"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="bottom|left"
+            android:text="커뮤니티"
+            android:textColor="#009688"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|right"
+            android:padding="1dp"
+            android:src="@drawable/more_btn"
+            android:text="더보기+" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sc017_camping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border"
+        android:weightSum="4">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0.5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#B8B4B4"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="번호"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#B8B4B4"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="제목"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#B8B4B4"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="작성자"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#B8B4B4"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="조회수"
+                    android:textSize="11dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="[공지]"
+                    android:textColor="#2196F3"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="******커뮤니티게시판이용수칙******"
+                    android:textColor="#2196F3"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="관리자"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="2021"
+                    android:textSize="11dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="Best"
+                    android:textColor="#F44336"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="벚꽃 캠핑 가능한 캠팡장!! 드라마 촬영지!!"
+                    android:textColor="#F44336"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="Han"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="777"
+                    android:textSize="11dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="999"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="해발300m 청정 캠핑장~"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="Lim"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="4"
+                    android:textSize="11dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="998"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="아이들과 숲체험하기 좋은 에코밸리 캠핑장"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="Park"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="13"
+                    android:textSize="11dp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

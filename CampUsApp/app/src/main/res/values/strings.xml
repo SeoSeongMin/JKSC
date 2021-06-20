@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">CamperApp</string>
+    <string name="title_activity_s_c002">SC002Activity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="left">&lt;</string>
+    <string name="right">&gt;</string>
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="rooms_array">
+        <item>객식 선택</item>
+        <item>글램핑 숙박 Only</item>
+        <item>바베큐 무한리필+조식+글램핑</item>
+    </string-array>
+
+    <string-array name="checkin_array">
+        <item>체크인</item>
+    </string-array>
+    <string-array name="checkout_array">
+        <item>체크아웃</item>
+    </string-array>
+
+    <string-array name="adults_array">
+        <item>성인</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="child_array">
+        <item>아동</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="booking_array">
+        <item>(선택)</item>
+        <item>예약 조회</item>
+        <item>예약 수정</item>
+        <item>예약 취소</item>
+    </string-array>
+
+    <string-array name="sort_array">
+        <item>오래된 순 </item>
+        <item>최근 순 </item>
+    </string-array>
+
+    <string-array name="pay_array">
+        <item>50,000원~100,000원</item>
+        <item>100,000원~150,000원</item>
+        <item>150,000원~200,000원</item>
+        <item>200,000원~</item>
+    </string-array>
+</resources>

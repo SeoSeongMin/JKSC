@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.camper.android.SC013Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#009688"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:src="@drawable/icons8_back_24"
+            android:text="뒤로가기아이콘" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:paddingLeft="50dp"
+            android:text="커뮤니티"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/search1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center|right"
+            android:padding="5dp"
+            android:src="@drawable/icons8_search_50"
+            android:text="서치아이콘" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.1"
+            android:gravity="center|right"
+            android:padding="5dp"
+            android:src="@drawable/icons8_menu_50"
+            android:text="메뉴아이콘" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/round_teal"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:text="  내 게시글  "
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:foregroundGravity="right"
+            android:layout_gravity="bottom|right"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.05"
+            android:src="@drawable/icons8_home_48" />
+
+        <TextView
+            android:gravity="bottom"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="0.75"
+            android:text=" > 커뮤니티 > 내 게시글"
+            android:textColor="#000000"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border"
+        android:weightSum="1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0.5dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:background="#B8B4B4"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text=""
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:background="#B8B4B4"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="제목"
+                    android:textSize="15dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:textColor="#2196F3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="내 게시글 1                                                  수정"
+                    android:textSize="13dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:textColor="#2196F3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="내 게시글 2                                                   수정"
+                    android:textSize="13dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:textColor="#2196F3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="내 게시글 3                                                   수정"
+                    android:textSize="13dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:textColor="#2196F3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="내 게시글 4                                                   수정"
+                    android:textSize="13dp" />
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_gray"
+            android:padding="5dp"
+            android:text="  전체삭제  " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_gray"
+            android:padding="5dp"
+            android:text="  선택삭제  " />
+    </LinearLayout>
+</LinearLayout>
