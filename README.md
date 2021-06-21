@@ -49,6 +49,7 @@
 
 ✅ 프로젝트 최종발표
 
+
 ## 🔶저장소 URL🔶
 * #### [6조 저장소]
 (https://github.com/seoseongmin/JKSC)
@@ -61,6 +62,6 @@
 
 ## 🔶기말최종 발표 영상 (유튜브 링크)🔶
 * #### [기말최종 발표 영상]
-* 
+(https://www.youtube.com/watch?v=qKKUuIwybM4)
 
 
