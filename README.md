@@ -22,7 +22,7 @@
 단계 | 일정 | 산출물
 -- | -- | --
 요구사항 분석 및 정리 | 2021.04.04 – 2021.04.09 | 요구사항 명세서 [v2.2](https://github.com/seoseongmin/JKSC/blob/main/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C_v2.2.docx)
-프로젝트 진행 계획 | 2021.04.13 – 2021.04.19 | 프로젝트 계획서 
+프로젝트 진행 계획 | 2021.04.13 – 2021.04.19 | 프로젝트 계획서 [v1.2](https://github.com/seoseongmin/JKSC/blob/main/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%84%ED%9A%8D%EC%84%9C/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%84%ED%9A%8D%EC%84%9C_v1.2.docx)
 프로젝트 설계 | 2021.04.20 - 2021.05.31 | 프로젝트 설계서 [v1.2](https://github.com/seoseongmin/JKSC/blob/main/Class%20%EC%84%A4%EA%B3%84%EC%84%9C/Class%20%EC%84%A4%EA%B3%84%EC%84%9C_v1.2.pptx)
 프로젝트 구현 | 2021.06.01 - 2021.06.21 | 프로젝트 결과물 [apk](https://github.com/seoseongmin/JKSC/blob/main/app-debug.apk)
 프로젝트 테스트 | 2021.06.19 - 2021.06.21 | 테스트 결과서
